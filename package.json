@@ -102,5 +102,16 @@
   "dependencies": {
     "each-async": "^1.1.1",
     "indent-string": "^3.2.0"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvasani/JigarV.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jvasani/JigarV/issues"
+  },
+  "description": ""
 }
