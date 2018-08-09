@@ -13,7 +13,6 @@ import ContactMePage from "@pages/ContactMePage";
 class App extends Component {
   render() {
     return (
-     
       <div className="dev-landing-page" id="root">
         <ThemeSwitcher>
           <Browser except firefox>
