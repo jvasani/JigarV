@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import PortfolioItem from '@components/PortfolioItem';
 import ScrollToNext from '@components/ScrollToNext';
 import portfolioItems from './portfolio-items';
-import ContactMePage from '@pages/ContactMePage';
+
 
 import './style.scss';
 
@@ -33,6 +33,7 @@ const PortfolioPage = (props, context) => {
             `}
           </style>
            
+          {/* <PortfolioItem /> */}
           {portfolioItems.map((item, i) => (
             <PortfolioItem render={item.render} key={i} />
           ))}

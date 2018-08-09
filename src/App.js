@@ -8,7 +8,7 @@ import ScrollTop from "@components/ScrollTop";
 import ThemeSwitcher from "@components/ThemeSwitcher";
 import Browser from "@components/Browser";
 import Footer from "@components/Footer";
-import ContactMePage from "@pages/ContactMePage";
+
 
 class App extends Component {
   render() {
@@ -21,7 +21,6 @@ class App extends Component {
           <LandingPage />
           <AboutPage />
           <PortfolioPage />
-          <ContactMePage />
           <ScrollTop />
           <Footer />
         </ThemeSwitcher>
